@@ -1118,7 +1118,7 @@ body.ie ._ibg img {
   }
 }
 ._no-webp .page__first-screen{
-  background: url("/img/first-screen/main-screen__bgc.png") 100% 100% no-repeat; }
+  background: url("../img/first-screen/main-screen__bgc.png") 100% 100% no-repeat; }
 .page__first-screen {
   max-width: 1920px;
   height: 960px;
@@ -1312,4 +1312,4 @@ body.ie ._ibg img {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
-._webp .page__first-screen{ background: url(/img/first-screen/main-screen__bgc.webp) 100% 100% no-repeat; }
+._webp .page__first-screen{ background: url(../img/first-screen/main-screen__bgc.webp) 100% 100% no-repeat; }
