@@ -1002,6 +1002,18 @@ body.ie ._ibg img {
   background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
   border-radius: 50px;
   color: inherit;
+  -webkit-transition: -webkit-transform 0.3s ease 0s;
+  transition: -webkit-transform 0.3s ease 0s;
+  -o-transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .header__button:hover {
+    -webkit-transform: translate(20px, 0);
+        -ms-transform: translate(20px, 0);
+            transform: translate(20px, 0);
+  }
 }
 
 .logos-header__logo-1 {
