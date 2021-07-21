@@ -1307,15 +1307,18 @@ body.ie ._ibg img {
   }
 }
 
-._no-webp .wrapper{
-  background: url(../img/bgc.png) 100% 100% repeat; }
-
-.wrapper {
-  background-size: cover;
-}
-@media (any-hover: none) {
+@media (any-hover: hover) {
+  ._no-webp .wrapper{
+    background: url(../img/bgc.png) 100% 100% repeat; }
   .wrapper {
-    background: #000;
+    background-size: cover;
+  }
+}
+
+@media (any-hover: none) {
+  ._webp .wrapper {
+    background: none;
+    background-color: #000;
   }
 }
 
@@ -2012,5 +2015,7 @@ body.ie ._ibg img {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
-._webp .wrapper{ background: url(../img/bgc.webp) 100% 100% repeat; }
+@media (any-hover: hover){
+  ._webp .wrapper{ background: url(../img/bgc.webp) 100% 100% repeat; }
+}
 ._webp .page__first-screen{ background: url(../img/first-screen/main-screen__bgc.webp) 100% 100% no-repeat; }
