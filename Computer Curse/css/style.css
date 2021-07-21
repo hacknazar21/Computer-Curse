@@ -1313,6 +1313,11 @@ body.ie ._ibg img {
 .wrapper {
   background-size: cover;
 }
+@media (any-hover: hover) {
+  .wrapper {
+    background: #000;
+  }
+}
 
 .page {
   z-index: 1;
