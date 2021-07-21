@@ -1308,7 +1308,7 @@ body.ie ._ibg img {
 }
 
 ._no-webp .wrapper{
-  background: url("../img/bgc.png") 100% 100% repeat; }
+  background: url(../img/bgc.png) 100% 100% repeat; }
 
 .wrapper {
   background-size: cover;
