@@ -1311,7 +1311,7 @@ body.ie ._ibg img {
   background: url("../img/bgc.png") 100% 100% repeat; }
 
 .wrapper {
-  background-size: contain;
+  background-size: cover;
 }
 
 .page {
