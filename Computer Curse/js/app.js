@@ -790,7 +790,18 @@ animate({
 			Element.prototype.msMatchesSelector;
 	}
 })();
+window.onload = function () {
 
+    let counter = 0;
+
+    const tree = document.querySelectorAll('.training-program__block');
+    tree.forEach(element => {
+        counter++;
+        if (counter % 2 == 0) {
+            element.classList.toggle('_odd');
+        }
+    });
+}
 //let btn = document.querySelectorAll('button[type="submit"],input[type="submit"]');
 let forms = document.querySelectorAll('form');
 if (forms.length > 0) {
